@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { GlobalStyle } from "./utils";
 import {
   PrimaryButton,
   SecondaryButton,
@@ -11,6 +12,7 @@ const App = () => (
     <PrimaryButton>Hello world</PrimaryButton>
     <SecondaryButton>Goodbye world</SecondaryButton>
     <TertiaryButton>Hey world</TertiaryButton>
+    <GlobalStyle />
   </div>
 );
 
