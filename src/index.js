@@ -53,11 +53,9 @@ const App = () => {
           justifyContent: "space-around",
         }}
       >
-        <PrimaryButton modifiers={["large"]}>Hello world</PrimaryButton>
-        <SecondaryButton modifiers={["large"]}>Goodbye world</SecondaryButton>
-        <TertiaryButton modifiers={["large", "tertiaryButtonError"]}>
-          Hey world
-        </TertiaryButton>
+        <PrimaryButton modifiers={["large"]}>Mohammad</PrimaryButton>
+        <SecondaryButton modifiers={["large"]}>Love</SecondaryButton>
+        <TertiaryButton modifiers={["large"]}>Maryam</TertiaryButton>
         <GlobalStyle />
       </div>
     </ThemeProvider>
