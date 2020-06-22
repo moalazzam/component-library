@@ -9,9 +9,15 @@ import {
 
 const App = () => (
   <div>
-    <PrimaryButton disabled>Hello world</PrimaryButton>
-    <SecondaryButton disabled>Goodbye world</SecondaryButton>
-    <TertiaryButton disabled>Hey world</TertiaryButton>
+    <PrimaryButton modifiers={["small", "success", "primaryButtonSuccess"]}>
+      Hello world
+    </PrimaryButton>
+    <SecondaryButton modifiers={["large", "warning", "secondaryButtonWarning"]}>
+      Goodbye world
+    </SecondaryButton>
+    <TertiaryButton modifiers={["error", "tertiaryButtonError"]}>
+      Hey world
+    </TertiaryButton>
     <GlobalStyle />
   </div>
 );
