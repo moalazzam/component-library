@@ -1,13 +1,13 @@
-import { neutral, yellow, green, red } from "./colors";
+import { neutral, blue, yellow, green, red } from "./colors";
 import { primaryFont } from "./typography";
 
 export const defaultTheme = {
   primaryFont: primaryFont,
   textColor: neutral[600],
   textColorInverted: neutral[100],
-  primaryColor: red[300],
-  primaryHoverColor: red[200],
-  primaryActiveColor: red[100],
+  primaryColor: blue[300],
+  primaryHoverColor: blue[200],
+  primaryActiveColor: blue[100],
   textColorOnPrimary: neutral[100],
   disabledColor: neutral[400],
   textColorOnDisabled: neutral[300],
@@ -26,12 +26,12 @@ export const defaultTheme = {
 
 export const darkTheme = {
   primaryFont: primaryFont,
-  textColor: red[300],
+  textColor: blue[300],
   textColorInverted: neutral[100],
   primaryColor: neutral[100],
   primaryHoverColor: neutral[200],
   primaryActiveColor: neutral[300],
-  textColorOnPrimary: red[300],
+  textColorOnPrimary: blue[300],
   disabledColor: neutral[400],
   textColorOnDisabled: neutral[300],
   status: {
